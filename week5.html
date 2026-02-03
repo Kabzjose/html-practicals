@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+</style>
+<body>
+    <table style="width: 50%; border: 5px solid black; height: 50vh;">
+        <caption><span>Distance between points</span></caption>
+       <tr height="50">
+        <th></th>
+        <th>B</th>
+        <th>C</th>
+        <th>D</th>
+       </tr>
+       <tr>
+        <th>A</th>
+        <td>70</td>
+        <td>50</td>
+        <td rowspan="3" bgcolor="#eeoodd">200</td>
+       </tr>
+       <tr>
+        <th>E</th>
+        <td>90</td>
+        <td>100</td>
+        
+       </tr>
+       <tr>
+        <th>F</th>
+        <td colspan="2">130</td>
+       </tr>
+    
+    </table>
+<br><br>
+
+<br><br>
+
+    <form action="submit" style="border: 2px solid #000000;padding: 20px;max-width: 400px; ">
+
+        <h3><u>Employee Registration Form</u></h3>
+        <label for="username">PF/NO:</label>
+        <input type="number" name="PF/NO"><br><br>
+        <label for="FirstName">FirstName:</label>
+        <input type="text" id="FirstName" name="FirstName"><br><br>
+        <label for="LastName">LastName:</label>
+        <input type="text" id="LastName" name="LastName"><br><br>
+        <label for="gender">Gender:</label><br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female"><br><br>
+        
+        
+       
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+
+
+</body>
+</html>
